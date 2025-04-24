@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #4f3919;
+      color: #effafa;
+    }
+
+    header {
+      background-color: #d9b4a3;
+      color: rgb(133, 52, 68);
+      height: 400px;
+      width:100%;
+      text-align: center;
+    }
+    
+    header img {
+      height: 250px;
+      border-radius: 40%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-right: 1rem;
+      margin-top:5px
+    }
+    nav a {
+     margin: 0 1rem;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: bold;
+      text-align:right;
+      margin-bottom:100%;
+    }
+
+    section {
+       color: #989aa3;
+      padding:2rem;
+      max-width:900px;
+      margin:auto;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: rgb(166, 148, 148);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+      padding: 1.5rem;
+    }
+    .card h3{
+      color: rgb(23, 23, 23);
+    }
+    .card p {
+      color: #effafa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #696565;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="./IMG-20250418-WA0002[1](1).png" alt="Profile Picture" />
+    
+    <h1>Jasmeen Bhardwaj</h1>
+    <p>Web Developer | Coder</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A passionate engineering student driven by curiosity, creativity, and the desire to build innovative solutions to real-world problems.A tech enthusiast and lifelong learner, I enjoy turning challenges into opportunities through design, code, and collaboration.Always eager to solve complex problems and contribute to meaningful projects.
+</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>PORTFOLIO AND LOGIN PAGE</h3>
+        <p>A personal portfolio built using HTML And CSS. </p>
+      </div>
+      <div class="card">
+        <h3>MEENA CHATBOT </h3>
+        <p>Designed a chatbot that works as a google AI and solve the complex problems</p>
+      </div>
+      <div class="card">
+        <h3>CASE STUDY</h3>
+        <p>Fraud detection using machine learing in Banking.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS</li>
+      <li>Python</li>
+      <li>C++</li>
+      <li>java</li>
+      <li>Data Analysis</li>
+    </ul>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Mobile no. 7719449860 </p>
+    <p>Email: bawakhushi76@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/jasmeen" target="_blank">Jasmeen</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 jasmeen. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
